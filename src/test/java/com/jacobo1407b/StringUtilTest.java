@@ -4,6 +4,16 @@ import org.junit.Assert;
 import org.junit.Test;
 
 public class StringUtilTest {
+    @Test
+    public static void testRepeat(){
+
+        Assert.assertEquals(StringUtil.repeat("hola",3), "holaholahola");
+        Assert.assertEquals(StringUtil.repeat("hola",1),"hola");
+    }
+
+}
+/*
+public class StringUtilTest {
     public static void main(String[] args) {
         assertEquals(StringUtil.repeat("hola",3), "holaholahola");
 
@@ -25,4 +35,4 @@ public class StringUtilTest {
             throw new RuntimeException( actual + "No es igual al valor esperado");
         }
     }
-}
+}*/
