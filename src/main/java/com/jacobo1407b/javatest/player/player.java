@@ -1,5 +1,6 @@
 package com.jacobo1407b.javatest.player;
 
+
 public class player {
 
     private Dice dice;
